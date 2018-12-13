@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>lazyload</title>
+  <style>
+    html,
+    body,
+    div,
+    img {
+      margin: 0;
+      padding: 0;
+    }
+
+    .img {
+      height: 120px;
+      background-color: gray;
+      border-bottom: 1px solid #eee;
+      box-sizing: border-box;
+    }
+
+    .img .pic {
+      width: 32%;
+      height: 100%;
+    }
+
+    .img .content {
+      float: right;
+      width: 65%;
+    }
+
+    .img .content p {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <div class="img">
+      <img class="pic" alt="加载中" data-src="./images/1.jpg">
+      <div class="content">
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+        <p>促销大优惠</p>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </div>
+</body>
+
+</html>
